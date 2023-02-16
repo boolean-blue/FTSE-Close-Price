@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FTSE Closing Price</title>
+    <style>
+      h1 {
+        font-family: Garamond;
+        color: royalblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FTSE Closing Price</h1>
+    <form action="{{ url_for('result') }}" method="post">
+      <label for="date">Enter date:</label>
+      <input type="text" id="date" name="date" pattern="\d{4}-\d{2}-\d{2}" title="Please enter a date in the format YYYY-MM-DD (e.g. 2022-05-07)" min="1984-01-03" max="{{ todayDate.strftime('%Y-%m-%d') }}" required>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
