@@ -1,4 +1,4 @@
-# FTSE Closing Price App
+# FTSE Closing Price Web App
 ## Overview
 This is a Flask app that allows users to input a date in the format yyyy-mm-dd, and returns the closing price of the FTSE 100 index for that day. It also calculates the total PnL for the most recent close price. If the user enters an invalid date, the app redirects them to an error page with instructions on how to input a valid date.
 
