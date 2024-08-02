@@ -24,4 +24,4 @@ If you entered an invalid date, the app will redirect you to an error page with 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Credits
-This project was created by Daniel Oakey. I would like to dedicate my first available code to Wesley.
+This project was created by Daniel Holloway. I would like to dedicate my first available code to Wesley.
